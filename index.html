@@ -78,16 +78,20 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center">
                 
-                <!-- Header Logo & Branding -->
-                <a href="#home" class="flex-shrink-0 cursor-pointer flex items-center space-x-3 group">
-                    <div class="w-10 h-10 rounded-full bg-[#647360] flex items-center justify-center text-stone-50 font-serif text-base tracking-widest shadow-sm group-hover:bg-[#525e4e] transition duration-300">
-                        JL
-                    </div>
-                    <div class="flex flex-col">
-                        <span class="text-xl font-serif text-stone-900 tracking-wide">JL Therapy</span>
-                        <span class="text-[9px] uppercase tracking-widest text-stone-500">Dr. Johanna Logarzo</span>
-                    </div>
-                </a>
+<!-- Header Logo & Branding -->
+<a href="#home" class="flex-shrink-0 cursor-pointer flex items-center space-x-3 group">
+    <div class="w-10 h-10 rounded-full overflow-hidden shadow-sm group-hover:shadow-md transition duration-300">
+        <img
+            src="https://github.com/naiff25/jltheraphy/blob/main/content/img/jl_logo.jpg?raw=true"
+            alt="JL Therapy logo"
+            class="w-full h-full object-cover"
+        />
+    </div>
+    <div class="flex flex-col">
+        <span class="text-xl font-serif text-stone-900 tracking-wide">JL Therapy</span>
+        <span class="text-[9px] uppercase tracking-widest text-stone-500">Dr. Johanna Logarzo</span>
+    </div>
+</a>
                 
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex items-center space-x-10">
@@ -124,7 +128,7 @@
     <section id="home" class="relative pt-32 pb-24 lg:pt-48 lg:pb-40 overflow-hidden bg-[#F7F5F2]">
         <div class="absolute inset-0 z-0">
             <img 
-                src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" 
+                src="https://github.com/naiff25/jltheraphy/blob/main/content/img/jl_hero.png?raw=true" 
                 alt="Warm minimalist interior" 
                 class="w-full h-full object-cover opacity-40 mix-blend-multiply"
             />
@@ -190,7 +194,7 @@
                     <div class="relative">
                         <div class="absolute inset-0 bg-[#EFECE7] transform translate-x-6 translate-y-6"></div>
                         <img 
-                            src="https://images.unsplash.com/photo-1551847617-f50f9f38e16f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                            src="https://github.com/naiff25/jltheraphy/blob/main/content/img/jl.png?raw=true" 
                             alt="Dr. Johanna Logarzo Workspace" 
                             class="relative z-10 w-full object-cover aspect-[4/5] shadow-sm grayscale-[20%]"
                         />
@@ -402,27 +406,31 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-[#647360] text-stone-200 py-16 border-t border-[#525e4e]">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
-            
-            <!-- Footer Logo & Branding -->
-            <div class="mb-8 md:mb-0 flex items-center space-x-4">
-                <div class="w-10 h-10 rounded-full bg-[#525e4e] flex items-center justify-center text-stone-100 font-serif text-base tracking-widest border border-stone-400/20">
-                    JL
-                </div>
-                <div class="text-left">
-                    <h2 class="text-stone-100 text-xl font-serif tracking-wide">JL Therapy Services</h2>
-                    <p class="text-xs font-light text-stone-300">Quality care you can count on.</p>
-                </div>
+<!-- Footer -->
+<footer class="bg-[#647360] text-stone-200 py-16 border-t border-[#525e4e]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+        
+        <!-- Footer Logo & Branding -->
+        <div class="mb-8 md:mb-0 flex items-center space-x-4">
+            <div class="w-10 h-10 rounded-full overflow-hidden shadow-sm border border-stone-400/20">
+                <img
+                    src="https://github.com/naiff25/jltheraphy/blob/main/content/img/jl_logo.jpg?raw=true"
+                    alt="JL Therapy logo"
+                    class="w-full h-full object-cover"
+                />
             </div>
-
-            <div class="text-xs font-light tracking-wider uppercase space-y-3 text-center md:text-right text-stone-300">
-                <p>&copy; <span id="year"></span> JL Therapy Services LLC.</p>
-                <p>Designed for Dr. Johanna Logarzo PsyD., LMHC</p>
+            <div class="text-left">
+                <h2 class="text-stone-100 text-xl font-serif tracking-wide">JL Therapy Services</h2>
+                <p class="text-xs font-light text-stone-300">Quality care you can count on.</p>
             </div>
         </div>
-    </footer>
+
+        <div class="text-xs font-light tracking-wider uppercase space-y-3 text-center md:text-right text-stone-300">
+            <p>&copy; <span id="year"></span> JL Therapy Services LLC.</p>
+            <p>Designed for Dr. Johanna Logarzo PsyD., LMHC</p>
+        </div>
+    </div>
+</footer>
     
     <!-- Mobile Sticky CTA -->
     <div class="md:hidden fixed bottom-0 w-full z-40 p-3 bg-white/95 backdrop-blur-md border-t border-stone-200">
